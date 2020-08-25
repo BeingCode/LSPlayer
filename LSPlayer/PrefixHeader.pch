@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  LSPlayer
+//
+//  Created by next on 2020/8/24.
+//  Copyright © 2020 next. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "NXMacros.h"
+
+#import <Masonry/Masonry.h>
+#import <SDWebImage/SDWebImage.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <CocoaLumberjack/CocoaLumberjack.h>
+#import <CocoaLumberjack/DDLog.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+
+#import "NXBaseViewController.h"
+#import "UIView+MBPHUD.h"
+#endif /* PrefixHeader_pch */

@@ -1,0 +1,16 @@
+${PODS_ROOT}/Target Support Files/Pods-LSPlayer/Pods-LSPlayer-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework
+${BUILT_PRODUCTS_DIR}/EasyNavigation/EasyNavigation.framework
+${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${PODS_ROOT}/NELivePlayer/LivePlayer_iOS_SDK_v2.4.4/NELivePlayerFramework.framework
+${PODS_ROOT}/NMCLiveStreaming/NormalSDK/NMCBasicModuleFramework.framework
+${PODS_ROOT}/NMCLiveStreaming/NormalSDK/NMCLiveStreaming.framework
+${BUILT_PRODUCTS_DIR}/RDVTabBarController/RDVTabBarController.framework
+${BUILT_PRODUCTS_DIR}/RealReachability/RealReachability.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/Toast/Toast.framework
+${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework
+${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework
+${BUILT_PRODUCTS_DIR}/YYKeyboardManager/YYKeyboardManager.framework
+${BUILT_PRODUCTS_DIR}/YYWebImage/YYWebImage.framework

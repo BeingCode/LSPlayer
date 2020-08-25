@@ -3,12 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04FC7521D2AA5635C0E350E6 /* Pods_LSPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A29DF97C41CD7E37881268 /* Pods_LSPlayer.framework */; };
 		58331A8D24F3AB4D00A2D4FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58331A8C24F3AB4D00A2D4FA /* AppDelegate.m */; };
-		58331A9024F3AB4D00A2D4FA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58331A8F24F3AB4D00A2D4FA /* SceneDelegate.m */; };
 		58331A9324F3AB4D00A2D4FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58331A9224F3AB4D00A2D4FA /* ViewController.m */; };
 		58331A9624F3AB4D00A2D4FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58331A9424F3AB4D00A2D4FA /* Main.storyboard */; };
 		58331A9824F3AB4F00A2D4FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58331A9724F3AB4F00A2D4FA /* Assets.xcassets */; };
@@ -16,6 +16,16 @@
 		58331A9E24F3AB4F00A2D4FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58331A9D24F3AB4F00A2D4FA /* main.m */; };
 		58331AA824F3AB5000A2D4FA /* LSPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58331AA724F3AB5000A2D4FA /* LSPlayerTests.m */; };
 		58331AB324F3AB5000A2D4FA /* LSPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58331AB224F3AB5000A2D4FA /* LSPlayerUITests.m */; };
+		58331AC524F3AC1A00A2D4FA /* NXLivePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58331AC324F3AC1A00A2D4FA /* NXLivePlayerViewController.m */; };
+		58331AC624F3AC1A00A2D4FA /* NXLiveVideoCoverCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58331AC424F3AC1A00A2D4FA /* NXLiveVideoCoverCell.m */; };
+		58331ACF24F3AF5A00A2D4FA /* NSTimer+NTESHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 58331ACB24F3AF5900A2D4FA /* NSTimer+NTESHelper.m */; };
+		58331AD024F3AF5A00A2D4FA /* UIView+NTES.m in Sources */ = {isa = PBXBuildFile; fileRef = 58331ACD24F3AF5900A2D4FA /* UIView+NTES.m */; };
+		58331AD124F3AF5A00A2D4FA /* NSDictionary+NTESJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 58331ACE24F3AF5A00A2D4FA /* NSDictionary+NTESJson.m */; };
+		58331AD524F3B05300A2D4FA /* NTESLivePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 58331AD324F3B05300A2D4FA /* NTESLivePlayer.m */; };
+		58331AD924F3B13800A2D4FA /* NTESAutoRemoveNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 58331AD824F3B13800A2D4FA /* NTESAutoRemoveNotification.m */; };
+		58331ADD24F3B8EE00A2D4FA /* NXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58331ADC24F3B8EE00A2D4FA /* NXBaseViewController.m */; };
+		58331AE224F3BC2600A2D4FA /* UIView+NTESHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 58331AE124F3BC2600A2D4FA /* UIView+NTESHud.m */; };
+		58331AE524F3BD4100A2D4FA /* UIView+MBPHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 58331AE424F3BD4100A2D4FA /* UIView+MBPHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +49,6 @@
 		58331A8824F3AB4D00A2D4FA /* LSPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58331A8B24F3AB4D00A2D4FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		58331A8C24F3AB4D00A2D4FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		58331A8E24F3AB4D00A2D4FA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		58331A8F24F3AB4D00A2D4FA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		58331A9124F3AB4D00A2D4FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		58331A9224F3AB4D00A2D4FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		58331A9524F3AB4D00A2D4FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +62,31 @@
 		58331AAE24F3AB5000A2D4FA /* LSPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58331AB224F3AB5000A2D4FA /* LSPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSPlayerUITests.m; sourceTree = "<group>"; };
 		58331AB424F3AB5000A2D4FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58331AC124F3AC1A00A2D4FA /* NXLivePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXLivePlayerViewController.h; sourceTree = "<group>"; };
+		58331AC224F3AC1A00A2D4FA /* NXLiveVideoCoverCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXLiveVideoCoverCell.h; sourceTree = "<group>"; };
+		58331AC324F3AC1A00A2D4FA /* NXLivePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXLivePlayerViewController.m; sourceTree = "<group>"; };
+		58331AC424F3AC1A00A2D4FA /* NXLiveVideoCoverCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXLiveVideoCoverCell.m; sourceTree = "<group>"; };
+		58331AC824F3AE9A00A2D4FA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		58331AC924F3AF5900A2D4FA /* NSDictionary+NTESJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NTESJson.h"; sourceTree = "<group>"; };
+		58331ACA24F3AF5900A2D4FA /* UIView+NTES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NTES.h"; sourceTree = "<group>"; };
+		58331ACB24F3AF5900A2D4FA /* NSTimer+NTESHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+NTESHelper.m"; sourceTree = "<group>"; };
+		58331ACC24F3AF5900A2D4FA /* NSTimer+NTESHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+NTESHelper.h"; sourceTree = "<group>"; };
+		58331ACD24F3AF5900A2D4FA /* UIView+NTES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NTES.m"; sourceTree = "<group>"; };
+		58331ACE24F3AF5A00A2D4FA /* NSDictionary+NTESJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NTESJson.m"; sourceTree = "<group>"; };
+		58331AD324F3B05300A2D4FA /* NTESLivePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESLivePlayer.m; sourceTree = "<group>"; };
+		58331AD424F3B05300A2D4FA /* NTESLivePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESLivePlayer.h; sourceTree = "<group>"; };
+		58331AD724F3B13800A2D4FA /* NTESAutoRemoveNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESAutoRemoveNotification.h; sourceTree = "<group>"; };
+		58331AD824F3B13800A2D4FA /* NTESAutoRemoveNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESAutoRemoveNotification.m; sourceTree = "<group>"; };
+		58331ADB24F3B8EE00A2D4FA /* NXBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NXBaseViewController.h; sourceTree = "<group>"; };
+		58331ADC24F3B8EE00A2D4FA /* NXBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXBaseViewController.m; sourceTree = "<group>"; };
+		58331ADF24F3BAF800A2D4FA /* NXMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NXMacros.h; sourceTree = "<group>"; };
+		58331AE024F3BC2600A2D4FA /* UIView+NTESHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NTESHud.h"; sourceTree = "<group>"; };
+		58331AE124F3BC2600A2D4FA /* UIView+NTESHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NTESHud.m"; sourceTree = "<group>"; };
+		58331AE324F3BD4100A2D4FA /* UIView+MBPHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MBPHUD.h"; sourceTree = "<group>"; };
+		58331AE424F3BD4100A2D4FA /* UIView+MBPHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MBPHUD.m"; sourceTree = "<group>"; };
+		82A29DF97C41CD7E37881268 /* Pods_LSPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30D158A580A0286CD06E548 /* Pods-LSPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSPlayer.release.xcconfig"; path = "Target Support Files/Pods-LSPlayer/Pods-LSPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		BBEDBB2EBF650EC1252DCBC5 /* Pods-LSPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSPlayer.debug.xcconfig"; path = "Target Support Files/Pods-LSPlayer/Pods-LSPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FC7521D2AA5635C0E350E6 /* Pods_LSPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +115,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13DE4C41782F195742EE75FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBEDBB2EBF650EC1252DCBC5 /* Pods-LSPlayer.debug.xcconfig */,
+				A30D158A580A0286CD06E548 /* Pods-LSPlayer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		17C45323DB417531502A2682 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82A29DF97C41CD7E37881268 /* Pods_LSPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		58331A7F24F3AB4D00A2D4FA = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +139,8 @@
 				58331AA624F3AB5000A2D4FA /* LSPlayerTests */,
 				58331AB124F3AB5000A2D4FA /* LSPlayerUITests */,
 				58331A8924F3AB4D00A2D4FA /* Products */,
+				13DE4C41782F195742EE75FB /* Pods */,
+				17C45323DB417531502A2682 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,10 +157,13 @@
 		58331A8A24F3AB4D00A2D4FA /* LSPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				58331ADE24F3BACB00A2D4FA /* Macros */,
+				58331ADA24F3B8C900A2D4FA /* NXNav */,
+				58331AD624F3B12100A2D4FA /* Helper */,
+				58331AC724F3AE7B00A2D4FA /* Categorys */,
+				58331AC024F3ABD200A2D4FA /* Modules */,
 				58331A8B24F3AB4D00A2D4FA /* AppDelegate.h */,
 				58331A8C24F3AB4D00A2D4FA /* AppDelegate.m */,
-				58331A8E24F3AB4D00A2D4FA /* SceneDelegate.h */,
-				58331A8F24F3AB4D00A2D4FA /* SceneDelegate.m */,
 				58331A9124F3AB4D00A2D4FA /* ViewController.h */,
 				58331A9224F3AB4D00A2D4FA /* ViewController.m */,
 				58331A9424F3AB4D00A2D4FA /* Main.storyboard */,
@@ -115,6 +171,7 @@
 				58331A9924F3AB4F00A2D4FA /* LaunchScreen.storyboard */,
 				58331A9C24F3AB4F00A2D4FA /* Info.plist */,
 				58331A9D24F3AB4F00A2D4FA /* main.m */,
+				58331AC824F3AE9A00A2D4FA /* PrefixHeader.pch */,
 			);
 			path = LSPlayer;
 			sourceTree = "<group>";
@@ -137,6 +194,70 @@
 			path = LSPlayerUITests;
 			sourceTree = "<group>";
 		};
+		58331AC024F3ABD200A2D4FA /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				58331AD224F3B03E00A2D4FA /* Player */,
+				58331AC124F3AC1A00A2D4FA /* NXLivePlayerViewController.h */,
+				58331AC324F3AC1A00A2D4FA /* NXLivePlayerViewController.m */,
+				58331AC224F3AC1A00A2D4FA /* NXLiveVideoCoverCell.h */,
+				58331AC424F3AC1A00A2D4FA /* NXLiveVideoCoverCell.m */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		58331AC724F3AE7B00A2D4FA /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				58331AE324F3BD4100A2D4FA /* UIView+MBPHUD.h */,
+				58331AE424F3BD4100A2D4FA /* UIView+MBPHUD.m */,
+				58331AE024F3BC2600A2D4FA /* UIView+NTESHud.h */,
+				58331AE124F3BC2600A2D4FA /* UIView+NTESHud.m */,
+				58331AC924F3AF5900A2D4FA /* NSDictionary+NTESJson.h */,
+				58331ACE24F3AF5A00A2D4FA /* NSDictionary+NTESJson.m */,
+				58331ACC24F3AF5900A2D4FA /* NSTimer+NTESHelper.h */,
+				58331ACB24F3AF5900A2D4FA /* NSTimer+NTESHelper.m */,
+				58331ACA24F3AF5900A2D4FA /* UIView+NTES.h */,
+				58331ACD24F3AF5900A2D4FA /* UIView+NTES.m */,
+			);
+			path = Categorys;
+			sourceTree = "<group>";
+		};
+		58331AD224F3B03E00A2D4FA /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				58331AD424F3B05300A2D4FA /* NTESLivePlayer.h */,
+				58331AD324F3B05300A2D4FA /* NTESLivePlayer.m */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		58331AD624F3B12100A2D4FA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				58331AD724F3B13800A2D4FA /* NTESAutoRemoveNotification.h */,
+				58331AD824F3B13800A2D4FA /* NTESAutoRemoveNotification.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		58331ADA24F3B8C900A2D4FA /* NXNav */ = {
+			isa = PBXGroup;
+			children = (
+				58331ADB24F3B8EE00A2D4FA /* NXBaseViewController.h */,
+				58331ADC24F3B8EE00A2D4FA /* NXBaseViewController.m */,
+			);
+			path = NXNav;
+			sourceTree = "<group>";
+		};
+		58331ADE24F3BACB00A2D4FA /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				58331ADF24F3BAF800A2D4FA /* NXMacros.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +265,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58331AB724F3AB5000A2D4FA /* Build configuration list for PBXNativeTarget "LSPlayer" */;
 			buildPhases = (
+				4331A15D28BC34AD8E04F9AA /* [CP] Check Pods Manifest.lock */,
 				58331A8424F3AB4D00A2D4FA /* Sources */,
 				58331A8524F3AB4D00A2D4FA /* Frameworks */,
 				58331A8624F3AB4D00A2D4FA /* Resources */,
+				1F1221CE91E3D466A3EAD099 /* [CP] Embed Pods Frameworks */,
+				EF951C73F38CE4276774F103 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,15 +386,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F1221CE91E3D466A3EAD099 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LSPlayer/Pods-LSPlayer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LSPlayer/Pods-LSPlayer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LSPlayer/Pods-LSPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4331A15D28BC34AD8E04F9AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LSPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF951C73F38CE4276774F103 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LSPlayer/Pods-LSPlayer-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LSPlayer/Pods-LSPlayer-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LSPlayer/Pods-LSPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		58331A8424F3AB4D00A2D4FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				58331A9324F3AB4D00A2D4FA /* ViewController.m in Sources */,
+				58331AC624F3AC1A00A2D4FA /* NXLiveVideoCoverCell.m in Sources */,
+				58331AD924F3B13800A2D4FA /* NTESAutoRemoveNotification.m in Sources */,
 				58331A8D24F3AB4D00A2D4FA /* AppDelegate.m in Sources */,
 				58331A9E24F3AB4F00A2D4FA /* main.m in Sources */,
-				58331A9024F3AB4D00A2D4FA /* SceneDelegate.m in Sources */,
+				58331ADD24F3B8EE00A2D4FA /* NXBaseViewController.m in Sources */,
+				58331ACF24F3AF5A00A2D4FA /* NSTimer+NTESHelper.m in Sources */,
+				58331AE524F3BD4100A2D4FA /* UIView+MBPHUD.m in Sources */,
+				58331AD124F3AF5A00A2D4FA /* NSDictionary+NTESJson.m in Sources */,
+				58331AD024F3AF5A00A2D4FA /* UIView+NTES.m in Sources */,
+				58331AD524F3B05300A2D4FA /* NTESLivePlayer.m in Sources */,
+				58331AC524F3AC1A00A2D4FA /* NXLivePlayerViewController.m in Sources */,
+				58331AE224F3BC2600A2D4FA /* UIView+NTESHud.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,9 +629,12 @@
 		};
 		58331AB824F3AB5000A2D4FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBEDBB2EBF650EC1252DCBC5 /* Pods-LSPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8P28FSQSM;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LSPlayer/PrefixHeader.pch";
 				INFOPLIST_FILE = LSPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,9 +648,12 @@
 		};
 		58331AB924F3AB5000A2D4FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A30D158A580A0286CD06E548 /* Pods-LSPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8P28FSQSM;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LSPlayer/PrefixHeader.pch";
 				INFOPLIST_FILE = LSPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
